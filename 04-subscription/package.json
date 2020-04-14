@@ -1,0 +1,30 @@
+{
+  "name": "02-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "start:watch": "nodemon --exec babel-node src/index.js -e js,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-dev": "^1.1.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "uuid": "^7.0.3"
+  }
+}
