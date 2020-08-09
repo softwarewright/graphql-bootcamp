@@ -1,0 +1,23 @@
+{
+  "name": "02-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:watch": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^8.0.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "ts-node-dev": "^1.0.0-pre.56"
+  }
+}
